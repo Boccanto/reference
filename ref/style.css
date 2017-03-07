@@ -1,0 +1,139 @@
+a {
+	text-decoration: none;
+}
+
+#kpex {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+	
+	
+}
+
+#KpexBg{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0.5;
+
+		
+}
+
+body {
+	font-family: 'Ranga', cursive;	
+}
+
+img {
+	max-width: 100%;
+	border-radius: 5px;
+}
+
+
+
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+	background-color: #333333;
+	border-color: #333333;
+	text-align: center;
+}
+
+
+h1 {
+	margin: 10px 0;
+	color: white;
+	text-align: center;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h2 {
+	
+	font-size: 0.95em;
+	color: white;
+	text-align: center;
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+}
+
+header h1 a {
+	color: white;
+}
+
+
+
+
+#galeri {
+	list-style:none;
+	padding: 0;
+	margin: 0;
+}
+
+#galeri li{
+	float: left;
+	width: 48%;
+	margin: 1%;
+}
+
+
+
+footer{
+	text-align:center;
+	clear:both;
+	font-size: 1.2em;
+	background-color: white;
+	padding: 20px ;
+
+}
+footer p {
+	color: #999;
+}
+
+
+body {
+	background-color: white;
+	color: color: #999;
+	
+}
+
+/*Reszponziv*/
+
+@media	screen and (min-width: 470px){
+	#galeri li {
+		width: 31.3333333%;
+		/*3*2 = 6
+		100-6 = 94
+		94 / 3 = 31,3333*/
+		
+	}
+}
+
+@media	screen and (max-width: 1024px){
+	#galeri li {
+		width: 45%;
+		/*3*2 = 6
+		100-6 = 94
+		94 / 3 = 31,3333*/
+		
+	}
+}
+
+@media	screen and (max-width: 470px){
+	#galeri li {
+		width: 100%;
+		/*1*2 = 2
+		100-2 = 98
+		98 / 3 = 31,3333*/
+		
+	}
+}
+
+details summary::-webkit-details-marker { display:none; }
+
+
+
